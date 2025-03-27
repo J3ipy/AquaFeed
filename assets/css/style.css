@@ -324,9 +324,9 @@ body.nav-active { overflow: hidden; }
 .nav-close-btn {
   background-color: var(--white_a8);
   color: var(--white);
-  font-size: 2rem;
-  padding: 6px;
-  border-radius: var(--radius-circle);
+  font-size: 0.9rem;
+  padding: 10px;
+  border-radius: 100%;
   transition: var(--transition-1);
 }
 
@@ -446,8 +446,8 @@ body.nav-active { overflow: hidden; }
   transform: translateY(-50%);
   background-color: var(--white_a70);
   color: var(--charcoal);
-  font-size: 1rem;
-  padding: 11px;
+  font-size: 0.9rem;
+  padding: 10px;
   border-radius: 100%;
   transition: var(--transition-1);
 }
