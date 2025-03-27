@@ -6,33 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- 
-    - primary meta tags
-  -->
   <title>AquaFeed</title>
   <meta name="title" content="AquaFeed">
   <meta name="description" content="Site do AquaFeed">
 
-  <!-- 
-    - favicon
-  -->
   <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon">
-
-  <!-- 
-    - google font link
-  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
-
-  <!-- 
-    - custom css link
-  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!-- 
-    - preload images
-  -->
   <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
   <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg">
   <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg">
@@ -63,7 +47,7 @@
           </a>
 
           <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
-            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            <i class="fas fa-times"></i>
           </button>
         </div>
 
@@ -93,7 +77,7 @@
 
           <li>
             <a href="https://www.instagram.com/_aquafeed_?utm_source=qr&igsh=ZXFqeHowM3BxNHUw" class="social-link" target="_blank">
-              <ion-icon name="logo-instagram"></ion-icon>
+              <i class="fab fa-instagram"></i>
             </a>
           </li>
 
@@ -104,7 +88,7 @@
       <a href="https://www.instagram.com/_aquafeed_" target="_blank" class="btn btn-primary">Saiba mais</a>
 
       <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
-        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        <i class="fas fa-bars"></i>
       </button>
 
       <div class="overlay" data-nav-toggler data-overlay></div>
@@ -189,11 +173,11 @@
             </div>
 
             <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
-              <ion-icon name="arrow-back"></ion-icon>
+              <i class="fas fa-chevron-left"></i>
             </button>
 
             <button class="slider-btn next" aria-label="slide to next" data-slider-next>
-              <ion-icon name="arrow-forward"></ion-icon>
+              <i class="fas fa-chevron-right"></i>
             </button>
 
           </div>
@@ -224,7 +208,7 @@
               <div class="service-card">
 
                 <div class="card-icon">
-                  <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                  <i class="fa-solid fa-desktop"></i>
                 </div>
 
                 <h3 class="h4 card-title">Sistema de monitoramento</h3>
@@ -241,7 +225,7 @@
               <div class="service-card">
 
                 <div class="card-icon">
-                  <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+                  <i class="fa-solid fa-money-bill-trend-up"></i>
                 </div>
 
                 <h3 class="h4 card-title">Otimização de Lucros</h3>
@@ -258,7 +242,7 @@
               <div class="service-card">
 
                 <div class="card-icon">
-                  <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+                  <i class="fas fa-cloud-download-alt"></i>
                 </div>
 
                 <h3 class="h4 card-title">Dados em tempo real</h3>
@@ -275,7 +259,7 @@
               <div class="service-card">
 
                 <div class="card-icon">
-                  <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
+                  <i class="fas fa-chart-pie"></i>
                 </div>
 
                 <h3 class="h4 card-title">IA</h3>
@@ -291,6 +275,40 @@
 
         </div>
       </section>
+
+      <!-- 
+        - #SUPPORTERS
+      -->
+
+      <section class="section supporters" aria-labelledby="supporters-label">
+        <div class="container">
+
+          <p class="section-subtitle" id="service-label">O que fazemos?</p>
+
+          <h2 class="h2 section-title">
+            Instituições que acreditam no nosso trabalho.
+          </h2>
+
+          <div class="supporters-grid">
+            <div class="supporter-card">
+              <img src="https://b0a11c671efbdaffe869cdeeaa7add49.cdn.bubble.io/cdn-cgi/image/w=192,h=192,f=auto,dpr=2.5,fit=contain/f1721940295583x739455434316204000/cacto%202.png" alt="Logo Apoiador 1" class="supporter-logo">
+            </div>
+            <div class="supporter-card">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Instituto_Federal_de_Sergipe_-_Marca_Vertical_2015.svg/1200px-Instituto_Federal_de_Sergipe_-_Marca_Vertical_2015.svg.png" alt="Logo Apoiador 2" class="supporter-logo">
+            </div>
+            <div class="supporter-card">
+              <img src="https://cdn.asp.events/CLIENT_Ascentia_4E961A52_5056_B739_54289B84DF34E888/sites/bettbrasil-24ENG/media/libraries/bett-blog/LOGO-SEBRAE_Prancheta-1-02.png/fit-in/700x9999/filters:no_upscale()" alt="Logo Apoiador 3" class="supporter-logo">
+            </div>
+            <div class="supporter-card">
+              <img src="https://fapitec.se.gov.br/wp-content/uploads/2024/03/Ativo-23@3x-1.png" alt="Logo Apoiador 4" class="supporter-logo">
+            </div>
+          </div>
+
+
+
+        </div>
+      </section>
+
 
 
 
@@ -323,8 +341,7 @@
 
                   <h3 class="card-title">
                     <button class="accordion-btn" data-accordion-btn>
-                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
-
+                      <i class="fas fa-chevron-down"></i>
                       <spna class="span h5">Monitoramento em tempo real</spna>
                     </button>
                   </h3>
@@ -341,8 +358,7 @@
 
                   <h3 class="card-title">
                     <button class="accordion-btn" data-accordion-btn>
-                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
-
+                      <i class="fas fa-chevron-down"></i>
                       <spna class="span h5">Sensores limnológicos </spna>
                     </button>
                   </h3>
@@ -359,8 +375,7 @@
 
                   <h3 class="card-title">
                     <button class="accordion-btn" data-accordion-btn>
-                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
-
+                      <i class="fas fa-chevron-down"></i>
                       <spna class="span h5">Indicação de apetite</spna>
                     </button>
                   </h3>
@@ -424,7 +439,7 @@
 
           <li>
             <a href="https://www.instagram.com/_aquafeed_?utm_source=qr&igsh=ZXFqeHowM3BxNHUw" class="social-link" target="_blank">
-              <ion-icon name="logo-instagram"></ion-icon>
+              <i class="fab fa-instagram"></i>
             </a>
           </li>
 
@@ -460,10 +475,23 @@
           Envie alguma pergunta para nos esclarecemos sua dúvida.
         </p>
 
-        <form action="" class="input-wrapper">
-          <input type="email" name="email_address" placeholder="Email" required class="input-field">
-
-          <button type="submit" class="submit-btn">Enviar</button>
+        <form action="https://formsubmit.co/aquafeed.contato@gmail.com" method="POST" class="contact-form" enctype="multipart/form-data">
+          <div class="form-group">
+            <input type="email" name="email" placeholder="Seu email" required class="input-field">
+          </div>
+          <div class="form-group">
+            <textarea name="message" placeholder="Sua mensagem" required class="input-field"></textarea>
+          </div>
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_subject" value="Nova mensagem do site AquaFeed">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_next" value="http://localhost/obrigado.html">
+          <input type="text" name="_honey" style="display:none">
+          <div class="form-group">
+            <button type="submit" class="submit-btn">
+              <span>Enviar mensagem</span>
+            </button>
+          </div>
         </form>
 
       </div>
@@ -479,12 +507,6 @@
     - custom js link
   -->
   <script src="./assets/js/script.js"></script>
-
-  <!-- 
-    - ionicon
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 
